@@ -1,0 +1,85 @@
+{
+	"hero": {
+		"name": "Maria Victoria",
+		"fullStackDeveloper": "Python Developer",
+		"content": "I am a Python developer focused on backend: I design and build robust and scalable RESTful APIs and data pipelines. I combine database modeling in PostgreSQL, deployment automation with Docker and CI/CD flows, and best practices in testing and documentation to deliver maintainable solutions. I have implemented everything from text similarity algorithms and quantitative backtesting to custom Odoo modules, transforming business requirements into reliable and productive software. I work in remote environments with agile methodologies and collaborate closely with technical and functional teams."
+	},
+	"about": {
+		"title1": "About",
+		"title2": "Me",
+		"text": "Passionate about software engineering and trained in Mathematics at the University of Havana, I bring 2 years of hands-on experience solving complex problems with Python. I have developed efficient RESTful APIs, optimized schemas and queries in PostgreSQL, and built automated pipelines for quantitative analysis (e.g., Crypto-Backtesting) and text processing (Text Similarity Finder). In addition, I designed and implemented custom modules in Odoo (London Project), integrated electronic invoicing and external APIs, and performed exploratory data analysis to extract actionable insights. I focus on clean code, testing, clear documentation, and reproducible deployments with Docker and CI/CD, always aligning the technical solution with business goals."
+	},
+	"technologies": {
+		"title": "Technologies"
+	},
+	"experiences_title": "Experiences",
+	"experiences": [
+		{
+			"year": "February 2024 · 2025",
+			"role": "Backend Developer",
+			"company": "Freelance",
+			"description": "RESTful API development in Python with scalability and versioning principles. PostgreSQL database modeling and optimization with advanced queries and stored procedures. Business process automation (sales, accounting, CRM). Environment management with Docker and CI/CD workflow integration with GitHub/Git. Endpoint documentation and automated report generation.",
+			"technologies": ["Docker", "PostgreSQL", "RESTful APIs"]
+		},
+		{
+			"year": "April 2024 · Present",
+			"role": "Odoo Developer",
+			"company": "Korean Air Filters(KBA Air Filters)",
+			"description": "In my role at KBA Air Filters, I developed and customized modules in Odoo using Python, XML, and JavaScript; implemented Sales and Inventory process automation; implemented electronic invoicing; and integrated external APIs. Additionally, I designed real-time dashboards and coordinated directly with clients to gather requirements and deploy customized solutions. I worked with a dedicated team whose collaboration improved daily operations.",
+      "technologies": ["Odoo", "PostgreSQL", "Docker"]
+		}
+	],
+	"project_name": "Proyectos",
+	"projects": [
+		{
+			"title": "Text Similarity Finder",
+			"image": "../../assets/projects/cosine-similarity.jpg",
+			"description": "This project allows searching for similar text strings within a set of files.",
+			"language": ["Python"],
+			"url": "https://github.com/vickie333/Text-Similarity-Finder"
+		},
+		{
+			"title": "Crypto-Backtesting",
+			"image": "../../assets/projects/cripto.jpg",
+			"description": "This project implements a full quantitative analysis pipeline on the BTC/USDT pair.",
+			"language": ["Python"],
+			"url": "https://github.com/vickie333/Crypto-Backtesting"
+		},
+		{
+			"title": "London-Project",
+			"image": "../../assets/projects/odoo.png",
+			"description": "The London Project Management System is a module developed for Odoo 18 designed for comprehensive project and employee management at London S.A.",
+			"language": ["Python"],
+			"technologies": ["Odoo"],
+			"url": "https://github.com/vickie333/London-Project"
+		},
+		{
+			"title": "Analyzing Selling Price of Used Cars",
+			"image": "../../assets/projects/analizing-selling.png",
+			"description": "This project performs an exploratory data analysis on an Automobile Dataset. The goal is to discover relationships between vehicle features and their price, using data cleaning, visualization, and statistical analysis",
+			"language": ["Python"],
+			"url": "https://github.com/vickie333/Analyzing-Selling-Price-of-used-Cars-"
+		},
+		{
+			"title": "Six Degrees of Separation",
+			"image": "../../assets/projects/six-degrees.jpg",
+			"description": "This project implements a graph search algorithm to find the minimum number of degrees of separation between two actors in the movie industry. It uses IMDB data to build a graph where actors are nodes and movies are edges, then finds the shortest path between any two actors.",
+			"language": ["Python"],
+			"url": "https://github.com/vickie333/Six-Degrees-of-Separation"
+		},
+		{
+			"title": "Little Lemon Restaurant - Django Web Application",
+			"image": "../../assets/projects/littlelemon.jpg",
+			"description": "This proyect allows customers to view the menu, make reservations, and learn about the restaurant.",
+			"language": ["Python","Html","Css"],
+			"technologies": ["Django"],
+			"url": "https://github.com/vickie333/littlelemon-django"
+		}
+	],
+	"contact": {
+    "title": "Contact me here",
+    "address": "Playa, La Habana, Cuba",
+    "phoneNo": "+53 59658895",
+    "email": "mariavictoriaperezcontreras@gmail.com"
+  }
+}
