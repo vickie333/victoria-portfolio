@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://portfolio-ross.vercel.app/">
+  <a href="https://victoria-portfolio-psi.vercel.app/">
     <img src="src/assets/logo-dark.svg" alt="Logo" width="120" height="120">
   </a>
 
@@ -11,7 +11,7 @@
     An awesome Portfolio template to jumpstart your proffesional projects!
     <br />
     <br />
-    <a href="https://portfolio-ross.vercel.app/">View Demo</a>
+    <a href="https://victoria-portfolio-psi.vercel.app/">View Demo</a>
     &middot;
   </p>
 </div>
@@ -92,5 +92,5 @@ See `LICENSE.txt` for more information.
 
 Maria Victoria  mariavictoriaperezcontreras@gmail.com
 
-Project Link: https://portfolio-ross.vercel.app/
+Project Link: https://victoria-portfolio-psi.vercel.app/
 
