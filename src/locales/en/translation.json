@@ -1,8 +1,8 @@
 {
 	"hero": {
 		"name": "Maria Victoria",
-		"fullStackDeveloper": "Frontend Developer",
-		"content": "I am a Frontend developer specializing in Angular and TypeScript: I build scalable and accessible enterprise web interfaces, implementing state management with NgRx, integration with REST APIs, and reusable components. I have experience in UI migration, module architecture consolidation, and lazy loading to optimize performance. I apply Clean Code and SOLID principles, write unit and end-to-end tests (Karma/Jest/Cypress), and automate CI/CD pipelines with GitHub Actions and Jenkins for secure deployments. I work in remote environments using agile methodologies and collaborate closely with backend and product teams to transform requirements into reliable production software."
+		"fullStackDeveloper": "Fullstack Developer",
+		"content": "I am a Fullstack developer specializing in Angular and TypeScript on the frontend and Python on the backend: I build scalable, accessible enterprise web interfaces, implement state management with NgRx, integrate with REST APIs, and create reusable components. On the backend I design and build robust RESTful APIs and data pipelines using Python and PostgreSQL, and automate deployments with Docker and CI/CD pipelines. I have experience migrating UIs, consolidating module architecture, and applying lazy loading to improve performance. I follow Clean Code and SOLID principles, write unit and end-to-end tests (Karma/Jest/Cypress for frontend; pytest for backend), and automate pipelines with GitHub Actions and Jenkins for secure deployments. I work remotely with agile methodologies and collaborate closely with product and technical teams to turn requirements into reliable production software."
 	},
 	"about": {
 		"title1": "About",
@@ -25,8 +25,8 @@
 		"year": "April 2024 · 2025",
 		"role": "Frontend Developer",
 		"company": "Korean Air Filters (KBA Air Filters)",
-		"description": "I developed interfaces in Angular + TypeScript for logistics management portals, creating reusable components and implementing basic accessibility. I collaborated with backend teams to standardize API contracts and ensure observability using structured logs.",
-		"technologies": ["Angular", "TypeScript"]
+		"description": "I developed interfaces in React + TypeScript for logistics management portals, creating reusable components and implementing basic accessibility. I collaborated with backend teams to standardize API contracts and ensure observability using structured logs.",
+		"technologies": ["React", "TypeScript"]
 		},
 		{
 		"year": "July 2023 · 2024",

@@ -1,8 +1,8 @@
 {
   "hero": {
     "name": "Maria Victoria",
-    "fullStackDeveloper": "Desarrolladora Frontend",
-    "content": "Soy desarrolladora frontend especializada en Angular y TypeScript: desarrollo interfaces web empresariales escalables y accesibles, implementando la gestión de estados con NgRx, la integración con APIs REST y componentes reutilizables. Tengo experiencia en migración de UI, consolidación de arquitecturas de módulos y carga diferida para optimizar el rendimiento. Aplico los principios de Clean Code y SOLID, escribo pruebas unitarias y de extremo a extremo (Karma/Jest/Cypress) y automatizo pipelines de CI/CD con GitHub Actions y Jenkins para implementaciones seguras. Trabajo en entornos remotos utilizando metodologías ágiles y colaboro estrechamente con los equipos de backend y producto para transformar los requisitos en software de producción fiable."
+    "fullStackDeveloper": "Desarrolladora Fullstack",
+    "content": "Soy desarrolladora Fullstack especializada en Angular y TypeScript en el frontend y Python en el backend: construyo interfaces web corporativas escalables y accesibles, implemento gestión de estado con NgRx, integración con APIs REST y componentes reutilizables. En el backend diseño y desarrollo APIs RESTful y pipelines de datos robustos con Python y PostgreSQL, y automatizo despliegues con Docker y flujos de CI/CD. Tengo experiencia en migración de UIs, consolidación de arquitectura de módulos y lazy loading para optimizar rendimiento. Aplico principios de Clean Code y SOLID, escribo pruebas unitarias y end-to-end (Karma/Jest/Cypress en frontend; pytest en backend) y automatizo pipelines con GitHub Actions y Jenkins para despliegues seguros. Trabajo en entornos remotos con metodologías ágiles y colaboro estrechamente con equipos de producto y técnicos para transformar requisitos en software confiable de producción."
   },
   "about": {
     "title1": "Sobre",
