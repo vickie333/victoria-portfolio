@@ -8,6 +8,7 @@ import { DiRedis } from "react-icons/di";
 import { SiAngular } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiNgrx } from "react-icons/si";
+import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion"
 import { useTranslation } from "../../context/LanguajeContext"
 
@@ -85,6 +86,14 @@ const Technologies = () => {
 					className="rounded-2xl border-4 border-neutral-900 p-4"
 				>
 					<SiNgrx className="text-7xl text-[#BA2BD2] hover:text-[#D14BE3]" />
+				</motion.div>
+				<motion.div
+					variants={iconVariants(2.5)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-900 p-4"
+				>
+					<RiReactjsLine className="text-7xl text-cyan-400 hover:text-cyan-300" />
 				</motion.div>
 				<motion.div
 					variants={iconVariants(6.5)}
