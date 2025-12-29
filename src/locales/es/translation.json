@@ -1,13 +1,13 @@
 {
   "hero": {
     "name": "Maria Victoria",
-    "fullStackDeveloper": "Desarrolladora Python",
-    "content": "Soy desarrolladora Python enfocada en backend: diseño y construyo APIs RESTful y pipelines de datos robustos y escalables. Combino modelado de bases de datos en PostgreSQL, automatización de despliegues con Docker y flujos CI/CD, y buenas prácticas de pruebas y documentación para entregar soluciones mantenibles. He implementado desde algoritmos de similitud de texto y backtesting cuantitativo hasta módulos personalizados en Odoo, transformando requisitos de negocio en software fiable y productivo. Trabajo en entornos remotos con metodologías ágiles y colaboro estrechamente con equipos técnicos y funcionales."
+    "fullStackDeveloper": "Desarrolladora Frontend",
+    "content": "Soy desarrolladora frontend especializada en Angular y TypeScript: desarrollo interfaces web empresariales escalables y accesibles, implementando la gestión de estados con NgRx, la integración con APIs REST y componentes reutilizables. Tengo experiencia en migración de UI, consolidación de arquitecturas de módulos y carga diferida para optimizar el rendimiento. Aplico los principios de Clean Code y SOLID, escribo pruebas unitarias y de extremo a extremo (Karma/Jest/Cypress) y automatizo pipelines de CI/CD con GitHub Actions y Jenkins para implementaciones seguras. Trabajo en entornos remotos utilizando metodologías ágiles y colaboro estrechamente con los equipos de backend y producto para transformar los requisitos en software de producción fiable."
   },
   "about": {
     "title1": "Sobre",
     "title2": "Mí",
-    "text": "Apasionada por la ingeniería de software y formada en Matemáticas por la Universidad de La Habana, aporto 2 años de experiencia práctica resolviendo problemas complejos con Python. He desarrollado APIs RESTful eficientes, optimizado esquemas y consultas en PostgreSQL, y construido pipelines automatizados para análisis cuantitativo (por ejemplo Crypto-Backtesting) y procesamiento de texto (Text Similarity Finder). Además, diseñé e implementé módulos a medida en Odoo (London-Project), integré facturación electrónica y APIs externas, y realicé análisis exploratorios de datos para extraer insights accionables. Me enfoco en código limpio, pruebas, documentación clara y despliegues reproducibles con Docker y CI/CD, siempre alineando la solución técnica con los objetivos del negocio."
+    "text": "Apasionada por la ingeniería de software y licenciada en Matemáticas por la Universidad de La Habana, cuento con más de 2 años de experiencia práctica en desarrollo frontend empresarial. Trabajé en empresas como Zup Innovation y KBA Air Filters, donde migré y optimicé arquitecturas Angular, implementé NgRx para flujos complejos y estandaricé contratos de API y suites de pruebas, además de automatizar pipelines de CI/CD. Como freelancer, entregué aplicaciones full-stack con implementaciones Docker y pipelines automatizados, y produje documentación técnica y guías de API. Mis habilidades incluyen Angular, TypeScript, NgRx/Redux, integración REST, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testing (Karma/Jest/Cypress) y mejores prácticas (Clean Code, SOLID). Me enfoco en la calidad, mantenibilidad, rendimiento y alineación de entregables con los objetivos de negocio."
   },
   "technologies": {
     "title": "Tecnologías"
@@ -15,71 +15,62 @@
   "experiences_title": "Experiencias",
   "experiences": [
     {
-	  "year": "Febrero 2024 · 2025",
-	  "role": "Desarrolladora Backend",
-	  "company": "Freelance",
-	  "description": "Desarrollé APIs RESTful en Python aplicando principios de escalabilidad y versionado. Modelé y optimicé esquemas y consultas en PostgreSQL, incluyendo procedimientos almacenados. Automatizé procesos de negocio (ventas, contabilidad, CRM). Gestioné entornos con Docker e integré flujos CI/CD con GitHub/Git. Documenté endpoints y generé reportes automatizados.",
-	  "technologies": ["Docker", "PostgreSQL", "APIs RESTful"]
-	},
+      "year": "Agosto 2025",
+      "role": "Desarrolladora Frontend",
+      "company": "Zup Innovation",
+      "description": "Integré frontends con API REST autenticadas, diseñando contratos y suites de pruebas. Apliqué los principios de Clean Code y SOLID, realicé revisiones de código y practiqué la programación en parejas para mejorar la calidad del código.",
+      "technologies": ["Angular", "NgRx", "TypeScript"]
+    },
     {
-      "year": "Abril 2024 · Presente",
-      "role": "Desarrolladora en Odoo",
-      "company": "Korean Air Filters(KBA Air Filters)",
-      "description": "En mi rol en KBA Air Filters, desarrollé y personalicé módulos en Odoo empleando Python, XML y JavaScript; implementé automatizaciones de procesos de Ventas e Inventario; implanté la facturación electrónica e integré APIs externas. Además, diseñé dashboards en tiempo real y coordiné directamente con los clientes para recoger requisitos y desplegar soluciones a medida. Trabajé con un equipo dedicado cuya colaboración mejoró las operaciones diarias.",
-      "technologies": ["Odoo", "PostgreSQL", "Docker"]
+      "year": "Abril 2024 · 2025",
+      "role": "Desarrolladora Frontend",
+      "company": "Korean Air Filters (KBA Air Filters)",
+      "description": "Desarrollé interfaces en Angular + TypeScript para portales de gestión logística, creando componentes reutilizables e implementando accesibilidad básica. Colaboré con equipos de backend para estandarizar los contratos de API y garantizar la observabilidad mediante registros estructurados.",
+      "technologies": ["Angular", "TypeScript"]
+    },
+    {
+      "year": "Julio 2023 · 2024",
+      "role": "Desarrolladora Full Stack",
+      "company": "Freelance — Havana",
+      "description": "Entregué aplicaciones web completas utilizando TypeScript e integraciones REST, realizando implementaciones con Docker y configurando pipelines automatizados. Implementé pruebas unitarias (Karma/Jest) y de extremo a extremo para reducir las regresiones. Creé documentación técnica, guías de API y procedimientos de implementación para los clientes, garantizando el mantenimiento y la continuidad de las soluciones.",
+      "technologies": ["TypeScript", "Docker", "Cypress"]
     }
   ],
   "project_name": "Proyectos",
   "projects": [
     {
+      "title": "Recipe App",
+      "image": "../../assets/projects/recipe.svg",
+      "description": "Una moderna aplicación web para gestionar recetas, desarrollada con React y TypeScript (Vite). Permite crear, editar, ver y buscar recetas, gestionar etiquetas e ingredientes, marcar favoritos y gestionar perfiles de usuario.",
+      "language": ["React", "TypeScript", "Vite"],
+      "url": "https://github.com/vickie333/recipe"
+    },
+    {
       "title": "Text Similarity Finder",
       "image": "../../assets/projects/cosine-similarity.jpg",
-      "description": "Este proyecto permite buscar cadenas de texto similares dentro de un conjunto de archivos.",
+      "description": "Un proyecto que permite buscar cadenas de texto similares dentro de un conjunto de archivos.",
       "language": ["Python"],
       "url": "https://github.com/vickie333/Text-Similarity-Finder"
     },
     {
       "title": "Crypto-Backtesting",
       "image": "../../assets/projects/cripto.jpg",
-      "description": "Este proyecto implementa un pipeline completo de análisis cuantitativo sobre el par BTC/USDT",
+      "description": "Implementa un proceso de análisis cuantitativo completo para el par BTC/USDT.",
       "language": ["Python"],
       "url": "https://github.com/vickie333/Crypto-Backtesting"
     },
     {
-      "title": "London Project",
-      "image": "../../assets/projects/odoo.png",
-      "description": "El London Project Management System es un módulo desarrollado para Odoo 18 destinado a la gestión integral de proyectos y empleados en la empresa London S.A",
-      "language": ["Python"],
-      "technologies": ["Odoo"],
-      "url": "https://github.com/vickie333/London-Project"
-    },
-    {
-      "title": "Analyzing Selling Price of Used Cars",
-      "image": "../../assets/projects/analizing-selling.png",
-      "description": "Este proyecto realiza un análisis exploratorio de datos sobre un conjunto de datos de automóviles. El objetivo es descubrir relaciones entre las características de los vehículos y su precio, mediante limpieza de datos, visualización y análisis estadístico.",
-      "language": ["Python"],
-      "url": "https://github.com/vickie333/Analyzing-Selling-Price-of-used-Cars-"
-    },
-    {
       "title": "Six Degrees of Separation",
       "image": "../../assets/projects/six-degrees.jpg",
-      "description": "Este proyecto implementa un algoritmo de búsqueda en grafos para encontrar el número mínimo de grados de separación entre dos actores en la industria cinematográfica. Utiliza datos de IMDB para construir un grafo donde los actores son nodos y las películas son aristas, y encuentra la ruta más corta entre dos actores.",
+      "description": "Implementación de un algoritmo de búsqueda de grafos para encontrar el número mínimo de grados de separación entre dos actores, utilizando datos de IMDB para construir el grafo.",
       "language": ["Python"],
       "url": "https://github.com/vickie333/Six-Degrees-of-Separation"
-    },
-    {
-      "title": "Little Lemon Restaurant - Django Web Application",
-      "image": "../../assets/projects/littlelemon.jpg",
-      "description": "Este proyecto permite a los clientes ver el menú, hacer reservaciones y conocer el restaurante.",
-      "language": ["Python","Html","Css"],
-      "technologies": ["Django"],
-      "url": "https://github.com/vickie333/littlelemon-django"
     }
     ],
   "contact": {
-    "title": "Contáctame aquí",
-    "address": "Playa, La Habana, Cuba",
-    "phoneNo": "+53 59658895",
+    "title": "Contacto",
+    "address": "Calle Leila Diniz, 389, Maria Antonieta, Pinhais, Curitiba, Brasil",
+    "phoneNo": "(95) 98427-4616",
     "email": "mariavictoriaperezcontreras@gmail.com"
   }
 }

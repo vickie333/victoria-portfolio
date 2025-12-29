@@ -1,13 +1,13 @@
 {
 	"hero": {
 		"name": "Maria Victoria",
-		"fullStackDeveloper": "Python Developer",
-		"content": "I am a Python developer focused on backend: I design and build robust and scalable RESTful APIs and data pipelines. I combine database modeling in PostgreSQL, deployment automation with Docker and CI/CD flows, and best practices in testing and documentation to deliver maintainable solutions. I have implemented everything from text similarity algorithms and quantitative backtesting to custom Odoo modules, transforming business requirements into reliable and productive software. I work in remote environments with agile methodologies and collaborate closely with technical and functional teams."
+		"fullStackDeveloper": "Frontend Developer",
+		"content": "I am a Frontend developer specializing in Angular and TypeScript: I build scalable and accessible enterprise web interfaces, implementing state management with NgRx, integration with REST APIs, and reusable components. I have experience in UI migration, module architecture consolidation, and lazy loading to optimize performance. I apply Clean Code and SOLID principles, write unit and end-to-end tests (Karma/Jest/Cypress), and automate CI/CD pipelines with GitHub Actions and Jenkins for secure deployments. I work in remote environments using agile methodologies and collaborate closely with backend and product teams to transform requirements into reliable production software."
 	},
 	"about": {
 		"title1": "About",
 		"title2": "Me",
-		"text": "Passionate about software engineering and trained in Mathematics at the University of Havana, I bring 2 years of hands-on experience solving complex problems with Python. I have developed efficient RESTful APIs, optimized schemas and queries in PostgreSQL, and built automated pipelines for quantitative analysis (e.g., Crypto-Backtesting) and text processing (Text Similarity Finder). In addition, I designed and implemented custom modules in Odoo (London Project), integrated electronic invoicing and external APIs, and performed exploratory data analysis to extract actionable insights. I focus on clean code, testing, clear documentation, and reproducible deployments with Docker and CI/CD, always aligning the technical solution with business goals."
+		"text": "Passionate about software engineering and holding a degree in Mathematics from the University of Havana, I bring over 2 years of practical experience in enterprise frontend development. I worked at companies such as Zup Innovation and KBA Air Filters, where I migrated and optimized Angular architectures, implemented NgRx for complex flows, and standardized API contracts and test suites—in addition to automating CI/CD pipelines. As a freelancer, I delivered full-stack applications with Docker deployments and automated pipelines, and produced technical documentation and API guides. My skills include Angular, TypeScript, NgRx/Redux, REST integration, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testing (Karma/Jest/Cypress), and best practices (Clean Code, SOLID). I focus on quality, maintainability, performance, and aligning deliverables with business objectives."
 	},
 	"technologies": {
 		"title": "Technologies"
@@ -15,71 +15,62 @@
 	"experiences_title": "Experiences",
 	"experiences": [
 		{
-			"year": "February 2024 · 2025",
-			"role": "Backend Developer",
-			"company": "Freelance",
-			"description": "RESTful API development in Python with scalability and versioning principles. PostgreSQL database modeling and optimization with advanced queries and stored procedures. Business process automation (sales, accounting, CRM). Environment management with Docker and CI/CD workflow integration with GitHub/Git. Endpoint documentation and automated report generation.",
-			"technologies": ["Docker", "PostgreSQL", "RESTful APIs"]
+		"year": "August 2025",
+		"role": "Frontend Developer",
+		"company": "Zup Innovation",
+		"description": "I integrated frontends with authenticated REST APIs, designing contracts and test suites. I applied Clean Code and SOLID principles, conducted code reviews, and practiced pair programming to improve code quality.",
+		"technologies": ["Angular", "NgRx", "TypeScript"]
 		},
 		{
-			"year": "April 2024 · Present",
-			"role": "Odoo Developer",
-			"company": "Korean Air Filters(KBA Air Filters)",
-			"description": "In my role at KBA Air Filters, I developed and customized modules in Odoo using Python, XML, and JavaScript; implemented Sales and Inventory process automation; implemented electronic invoicing; and integrated external APIs. Additionally, I designed real-time dashboards and coordinated directly with clients to gather requirements and deploy customized solutions. I worked with a dedicated team whose collaboration improved daily operations.",
-      "technologies": ["Odoo", "PostgreSQL", "Docker"]
+		"year": "April 2024 · 2025",
+		"role": "Frontend Developer",
+		"company": "Korean Air Filters (KBA Air Filters)",
+		"description": "I developed interfaces in Angular + TypeScript for logistics management portals, creating reusable components and implementing basic accessibility. I collaborated with backend teams to standardize API contracts and ensure observability using structured logs.",
+		"technologies": ["Angular", "TypeScript"]
+		},
+		{
+		"year": "July 2023 · 2024",
+		"role": "Full Stack Developer",
+		"company": "Freelance — Havana",
+		"description": "I delivered complete web applications using TypeScript and REST integrations, performing deployments with Docker and configuring automated pipelines. I implemented unit (Karma/Jest) and end-to-end testing to reduce regressions. I created technical documentation, API guides, and deployment procedures for clients, ensuring the maintenance and continuity of the solutions.",
+		"technologies": ["TypeScript", "Docker", "Cypress"]
 		}
 	],
-	"project_name": "Proyectos",
+	"project_name": "Projects",
 	"projects": [
 		{
-			"title": "Text Similarity Finder",
-			"image": "../../assets/projects/cosine-similarity.jpg",
-			"description": "This project allows searching for similar text strings within a set of files.",
-			"language": ["Python"],
-			"url": "https://github.com/vickie333/Text-Similarity-Finder"
-		},
-		{
-			"title": "Crypto-Backtesting",
-			"image": "../../assets/projects/cripto.jpg",
-			"description": "This project implements a full quantitative analysis pipeline on the BTC/USDT pair.",
-			"language": ["Python"],
-			"url": "https://github.com/vickie333/Crypto-Backtesting"
-		},
-		{
-			"title": "London-Project",
-			"image": "../../assets/projects/odoo.png",
-			"description": "The London Project Management System is a module developed for Odoo 18 designed for comprehensive project and employee management at London S.A.",
-			"language": ["Python"],
-			"technologies": ["Odoo"],
-			"url": "https://github.com/vickie333/London-Project"
-		},
-		{
-			"title": "Analyzing Selling Price of Used Cars",
-			"image": "../../assets/projects/analizing-selling.png",
-			"description": "This project performs an exploratory data analysis on an Automobile Dataset. The goal is to discover relationships between vehicle features and their price, using data cleaning, visualization, and statistical analysis",
-			"language": ["Python"],
-			"url": "https://github.com/vickie333/Analyzing-Selling-Price-of-used-Cars-"
-		},
-		{
-			"title": "Six Degrees of Separation",
-			"image": "../../assets/projects/six-degrees.jpg",
-			"description": "This project implements a graph search algorithm to find the minimum number of degrees of separation between two actors in the movie industry. It uses IMDB data to build a graph where actors are nodes and movies are edges, then finds the shortest path between any two actors.",
-			"language": ["Python"],
-			"url": "https://github.com/vickie333/Six-Degrees-of-Separation"
-		},
-		{
-			"title": "Little Lemon Restaurant - Django Web Application",
-			"image": "../../assets/projects/littlelemon.jpg",
-			"description": "This proyect allows customers to view the menu, make reservations, and learn about the restaurant.",
-			"language": ["Python","Html","Css"],
-			"technologies": ["Django"],
-			"url": "https://github.com/vickie333/littlelemon-django"
-		}
+      "title": "Recipe App",
+      "image": "../../assets/projects/recipe.svg",
+      "description": "A modern web application for managing recipes, developed with React and TypeScript (Vite). It allows you to create, edit, view and search recipes, manage tags and ingredients, mark favorites and manage user profiles.",
+      "language": ["React", "TypeScript", "Vite"],
+      "url": "https://github.com/vickie333/recipe"
+    },
+    {
+      "title": "Text Similarity Finder",
+      "image": "../../assets/projects/cosine-similarity.jpg",
+      "description": "A project that allows searching for similar text strings within a set of files.",
+      "language": ["Python"],
+      "url": "https://github.com/vickie333/Text-Similarity-Finder"
+    },
+    {
+      "title": "Crypto-Backtesting",
+      "image": "../../assets/projects/cripto.jpg",
+      "description": "Implements a complete quantitative analysis pipeline for the BTC/USDT pair..",
+      "language": ["Python"],
+      "url": "https://github.com/vickie333/Crypto-Backtesting"
+    },
+    {
+      "title": "Six Degrees of Separation",
+      "image": "../../assets/projects/six-degrees.jpg",
+      "description": "Implementation of a graph search algorithm to find the minimum number of degrees of separation between two actors, using IMDB data to construct the graph.",
+      "language": ["Python"],
+      "url": "https://github.com/vickie333/Six-Degrees-of-Separation"
+    }
 	],
 	"contact": {
-    "title": "Contact me here",
-    "address": "Playa, La Habana, Cuba",
-    "phoneNo": "+53 59658895",
+    "title": "Contact",
+    "address": "Street Leila Diniz, 389, Maria Antonieta, Pinhais, Curitiba, Brasil",
+    "phoneNo": "(95) 98427-4616",
     "email": "mariavictoriaperezcontreras@gmail.com"
   }
 }

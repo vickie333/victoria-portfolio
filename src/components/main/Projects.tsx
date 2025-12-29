@@ -7,10 +7,8 @@ import { projects } from "../../types/projects";
 
 import cosineImg from "../../assets/projects/cosine-similarity.jpg";
 import criptoImg from "../../assets/projects/cripto.jpg";
-import odooImg from "../../assets/projects/odoo.png";
-import analizeImg from "../../assets/projects/analizing-selling.png";
 import degreesImg from "../../assets/projects/six-degrees.jpg";
-import lemonImg from "../../assets/projects/littlelemon.jpg";
+import recipeImg from "../../assets/projects/recipe.png";
 
 interface ImageMap {
 	[key: string]: string;
@@ -19,10 +17,8 @@ interface ImageMap {
 const imageMap: ImageMap = {
 	"Text Similarity Finder": cosineImg,
 	"Crypto-Backtesting": criptoImg,
-	"London-Project": odooImg,
-	"Analyzing Selling Price of Used Cars": analizeImg,
 	"Six Degrees of Separation": degreesImg,
-	"Little-Lemon-Restaurant": lemonImg,
+	"Recipe App": recipeImg,
 };
 
 // Normaliza quitando caracteres no alfanuméricos y pasando a minúsculas

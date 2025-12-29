@@ -5,26 +5,31 @@ import { SiFlask } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiOdoo } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
-import {motion} from "framer-motion"
-import { useTranslation } from "../../context/LanguajeContext"	
+import { SiAngular } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiNgrx } from "react-icons/si";
+import { motion } from "framer-motion"
+import { useTranslation } from "../../context/LanguajeContext"
 
-const iconVariants = (duration: number) => ({
-  initial: {y: -10 },
-  animate: {
-    y: [10, - 10],
-    transition: {
-    duration: duration,
-    ease: "linear",
-    repeat: Infinity,
-    repeatType: "reverse" as "reverse",
-  }
-},
+import { Variants } from "framer-motion";
+
+const iconVariants = (duration: number): Variants => ({
+	initial: { y: -10 },
+	animate: {
+		y: [10, - 10],
+		transition: {
+			duration: duration,
+			ease: "linear",
+			repeat: Infinity,
+			repeatType: "reverse" as "reverse",
+		}
+	},
 })
 const Technologies = () => {
 
-  const {t} = useTranslation();
+	const { t } = useTranslation();
 
-  return (
+	return (
 		<div className="border-b border-neutral-900 pb-24 lg:mb-35">
 			<motion.h2
 				whileInView={{ opacity: 1, x: 0 }}
@@ -56,9 +61,33 @@ const Technologies = () => {
 				>
 					<SiOdoo className="text-7xl text-cyan-700 hover:text-cyan-600" />
 				</motion.div>
+				<motion.div
+					variants={iconVariants(6)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-900 p-4"
+				>
+					<SiAngular className="text-7xl text-[#DD0031] hover:text-[#FF003C]" />
+				</motion.div>
 
 				<motion.div
 					variants={iconVariants(6)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-900 p-4"
+				>
+					<SiTypescript className="text-7xl text-[#3178C6] hover:text-[#4B91E2]" />
+				</motion.div>
+				<motion.div
+					variants={iconVariants(4)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-900 p-4"
+				>
+					<SiNgrx className="text-7xl text-[#BA2BD2] hover:text-[#D14BE3]" />
+				</motion.div>
+				<motion.div
+					variants={iconVariants(6.5)}
 					initial="initial"
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-900 p-4"

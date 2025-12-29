@@ -5,14 +5,22 @@ import logo from '../../assets/logo-dark.svg';
 import { useTranslation } from '../../context/LanguajeContext';
 
 const Navbar = () => {
-  const { language, setLanguage } = useTranslation();
-  const isEnglish = language === 'en';
+	const { language, setLanguage } = useTranslation();
+	const isEnglish = language === 'en';
 
-  const toggleLanguage = () => {
-    setLanguage(isEnglish ? 'es' : 'en');
-  };
+	const toggleLanguage = () => {
+		if (language === 'en') setLanguage('es');
+		else if (language === 'es') setLanguage('pt');
+		else setLanguage('en');
+	};
 
-  return (
+	const getLanguageLabel = () => {
+		if (language === 'en') return 'EN';
+		if (language === 'es') return 'ES';
+		return 'PT';
+	};
+
+	return (
 		<nav className="mb-20 flex items-center justify-between py-6">
 			<div className="flex items-center flex-shrink-0">
 				<img src={logo} alt="logo" className="mx-2 w-12 h-12" />
@@ -35,14 +43,14 @@ const Navbar = () => {
 				>
 					<AnimatePresence mode="wait">
 						<motion.span
-							key={isEnglish ? "en" : "es"}
+							key={language}
 							initial={{ y: 10, opacity: 0 }}
 							animate={{ y: 0, opacity: 1 }}
 							exit={{ y: -10, opacity: 0 }}
 							transition={{ duration: 0.2 }}
 							className="text-base font-medium hover:text-slate-900 text-slate-500"
 						>
-							{isEnglish ? "EN" : "ES"}
+							{getLanguageLabel()}
 						</motion.span>
 					</AnimatePresence>
 				</motion.button>

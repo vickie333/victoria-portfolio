@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "name": "Maria Victoria",
+    "fullStackDeveloper": "Desenvolvedora Frontend",
+    "content": "Sou desenvolvedora Frontend especializada em Angular e TypeScript: construo interfaces web corporativas escaláveis e acessíveis, implementando gerenciamento de estado com NgRx, integração com APIs REST e componentes reutilizáveis. Tenho experiência em migração de UIs, consolidação de arquitetura de módulos e lazy loading para otimizar desempenho. Aplic o princípios de Clean Code e SOLID, escrevo testes unitários e end-to-end (Karma/Jest/Cypress) e automatizo pipelines de CI/CD com GitHub Actions e Jenkins para deploys seguros. Trabalho em ambientes remotos com metodologias ágeis e colaboro de perto com equipes de backend e produto para transformar requisitos em software confiável de produção."
+  },
+  "about": {
+    "title1": "Sobre",
+    "title2": "Mim",
+    "text": "Apaixonada por engenharia de software e formada em Matemática pela Universidade de Havana, trago mais de 2 anos de experiência prática em desenvolvimento frontend corporativo. Atuei em empresas como Zup Innovation e KBA Air Filters, onde migrei e otimizei arquiteturas Angular, implementei NgRx para fluxos complexos e padronizei contratos de API e suites de teste — além de automatizar pipelines CI/CD. Como freelancer, entreguei aplicações full-stack com deploys em Docker e pipelines automatizados, e produzi documentação técnica e guias de API. Minhas habilidades incluem Angular, TypeScript, NgRx/Redux, integração REST, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testes (Karma/Jest/Cypress) e boas práticas (Clean Code, SOLID). Foco em qualidade, manutenibilidade, performance e alinhamento das entregas aos objetivos de negócio."
+  },
+  "technologies": {
+    "title": "Tecnologias"
+  },
+  "experiences_title": "Experiências",
+  "experiences": [
+    {
+      "year": "Agosto 2025",
+      "role": "Desenvolvedora Frontend",
+      "company": "Zup Innovation",
+      "description": "Implementei gerenciamento de estado com NgRx (actions, effects, selectors) em aplicações internas críticas, reduzindo re-renderizações e aumentando a rastreabilidade do estado. Integrei frontends com APIs REST autenticadas, projetando contratos e suites de teste. Apliquei princípios de Clean Code e SOLID, conduzi code reviews e pratiquei pair programming para elevar a qualidade do código.",
+      "technologies": ["Angular", "NgRx", "TypeScript"]
+    },
+    {
+      "year": "Abril 2024 · 2025",
+      "role": "Desenvolvedora Frontend",
+      "company": "Korean Air Filters (KBA Air Filters)",
+      "description": "Desenvolvi interfaces em Angular + TypeScript para portais de gestão logística, criando componentes reutilizáveis e implementando acessibilidade básica. Colaborei com equipes de backend para padronizar contratos de API e assegurar observabilidade utilizando logs estruturados.",
+      "technologies": ["Angular", "TypeScript"]
+    },
+    {
+      "year": "Julho 2023 · 2024",
+      "role": "Desenvolvedora Full Stack",
+      "company": "Freelance — Havana",
+      "description": "Entreguei aplicações web completas utilizando TypeScript e integrações REST, realizando deploys com Docker e configurando pipelines automatizados. Implementei testes unitários (Karma/Jest) e end-to-end (Cypress) para reduzir regressões. Elaborei documentação técnica, guias de API e procedimentos de deploy para clientes, garantindo manutenção e continuidade das soluções.",
+      "technologies": ["TypeScript", "Docker", "Cypress"]
+    }
+  ],
+  "project_name": "Projetos",
+	"projects": [
+	{
+      "title": "Recipe App",
+      "image": "../../assets/projects/recipe.svg",
+      "description": "Uma aplicação web moderna para gerenciar receitas, desenvolvida com React e TypeScript (Vite). Ela permite criar, editar, visualizar e pesquisar receitas, gerenciar tags e ingredientes, marcar favoritas e gerenciar perfis de usuário.",
+      "language": ["React", "TypeScript", "Vite"],
+      "url": "https://github.com/vickie333/recipe"
+    },
+    {
+      "title": "Text Similarity Finder",
+      "image": "../../assets/projects/cosine-similarity.jpg",
+      "description": "Projeto que permite buscar strings de texto similares dentro de um conjunto de arquivos.",
+      "language": ["Python"],
+      "url": "https://github.com/vickie333/Text-Similarity-Finder"
+    },
+    {
+      "title": "Crypto-Backtesting",
+      "image": "../../assets/projects/cripto.jpg",
+      "description": "Implementa um pipeline completo de análise quantitativa no par BTC/USDT.",
+      "language": ["Python"],
+      "url": "https://github.com/vickie333/Crypto-Backtesting"
+    },
+    {
+      "title": "Six Degrees of Separation",
+      "image": "../../assets/projects/six-degrees.jpg",
+      "description": "Implementação de um algoritmo de busca em grafos para encontrar o número mínimo de graus de separação entre dois atores, usando dados do IMDB para construir o grafo.",
+      "language": ["Python"],
+      "url": "https://github.com/vickie333/Six-Degrees-of-Separation"
+    }
+  ],
+  "contact": {
+    "title": "Contato",
+    "address": "Rua Leila Diniz, 389, Maria Antonieta, Pinhais, Curitiba, Brasil",
+    "phoneNo": "(95) 98427-4616",
+    "email": "mariavictoriaperezcontreras@gmail.com"
+  }
+}

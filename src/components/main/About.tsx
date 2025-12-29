@@ -6,11 +6,7 @@ import { useTranslation } from "../../context/LanguajeContext";
 const About: React.FC = () => {
 	const { t } = useTranslation();
 	return (
-		<div
-			className="pb-4
-    border-b
-    "
-		>
+		<div className="pb-4 border-b">
 			<h2 className="my-20 text-center text-4xl text-slate-500">
 				{t("about.title1")}{" "}
 				<span className="text-neutral-950">{t("about.title2")}</span>
@@ -20,8 +16,7 @@ const About: React.FC = () => {
 					whileInView={{ opacity: 1, x: 0 }}
 					initial={{ opacity: 0, x: -100 }}
 					transition={{ duration: 0.5 }}
-					className="w-full lg:w-1/2 lg:p-6"
-				>
+					className="w-full lg:w-1/2 lg:p-6">
 					<div className="flex items-center justify-center">
 						<img
 							src={AboutPic}
