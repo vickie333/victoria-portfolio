@@ -41,7 +41,7 @@
     {
       "title": "Hirekit",
       "image": "../../assets/projects/hirekit.png",
-      "description": "I developed a professional optimization platform that allows users to generate CVs tailored to specific job offers, automatically enhance their LinkedIn profiles, and create professional posts based on their skills and experience. The project aims to help candidates stand out in recruitment processes and strengthen their personal brand through automated, AI-powered tools.",
+      "description": "I developed with my colleague <a href=\"https://github.com/Ross-cripto\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Ross-cripto</strong></a> a professional optimization platform that allows users to generate CVs tailored to specific job offers, automatically enhance their LinkedIn profiles, and create professional posts based on their skills and experience. The project aims to help candidates stand out in recruitment processes and strengthen their personal brand through automated, AI-powered tools.",
       "language": [
         "React",
         "TypeScript",
