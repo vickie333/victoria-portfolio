@@ -9,6 +9,7 @@ import cosineImg from "../../assets/projects/cosine-similarity.jpg";
 import criptoImg from "../../assets/projects/cripto.jpg";
 import degreesImg from "../../assets/projects/six-degrees.jpg";
 import recipeImg from "../../assets/projects/recipe.png";
+import hirekitImg from "../../assets/projects/hirekit.png";
 
 interface ImageMap {
 	[key: string]: string;
@@ -19,6 +20,7 @@ const imageMap: ImageMap = {
 	"Crypto-Backtesting": criptoImg,
 	"Six Degrees of Separation": degreesImg,
 	"Recipe App": recipeImg,
+	"Hirekit": hirekitImg,
 };
 
 // Normaliza quitando caracteres no alfanuméricos y pasando a minúsculas

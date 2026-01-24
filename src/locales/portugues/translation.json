@@ -17,7 +17,7 @@
     {
       "year": "Agosto 2025",
       "role": "Desenvolvedora Frontend",
-      "company": "Zup Innovation",
+      "company": "Innovação Fiscal",
       "description": "Implementei gerenciamento de estado com NgRx (actions, effects, selectors) em aplicações internas críticas, reduzindo re-renderizações e aumentando a rastreabilidade do estado. Integrei frontends com APIs REST autenticadas, projetando contratos e suites de teste. Apliquei princípios de Clean Code e SOLID, conduzi code reviews e pratiquei pair programming para elevar a qualidade do código.",
       "technologies": ["Angular", "NgRx", "TypeScript"]
     },
@@ -37,13 +37,28 @@
     }
   ],
   "project_name": "Projetos",
-	"projects": [
-	{
+  "projects": [
+    {
+      "title": "Hirekit",
+      "image": "../../assets/projects/hirekit.png",
+      "description": "Desenvolvi uma plataforma de otimização profissional que permite aos usuários gerar CVs adaptados a ofertas de emprego específicas, melhorar automaticamente seus perfis do LinkedIn e criar postagens profissionais com base em suas habilidades e experiências. O projeto visa ajudar candidatos a se destacarem em processos de recrutamento e fortalecer sua marca pessoal por meio de ferramentas automatizadas impulsionadas por IA.",
+      "language": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Python",
+        "Django",
+        "Docker",
+        "Git"
+      ],
+      "url": "https://app.hirekit.shop/"
+    },
+    {
       "title": "Recipe App",
       "image": "../../assets/projects/recipe.svg",
       "description": "Uma aplicação web moderna para gerenciar receitas, desenvolvida com React e TypeScript (Vite). Ela permite criar, editar, visualizar e pesquisar receitas, gerenciar tags e ingredientes, marcar favoritas e gerenciar perfis de usuário.",
       "language": ["React", "TypeScript", "Vite"],
-      "url": "https://github.com/vickie333/recipe"
+      "url": "https://recipe-umber-iota.vercel.app/"
     },
     {
       "title": "Text Similarity Finder",

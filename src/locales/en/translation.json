@@ -1,49 +1,64 @@
 {
-	"hero": {
-		"name": "Maria Victoria",
-		"fullStackDeveloper": "Fullstack Developer",
-		"content": "I am a Fullstack developer specializing in Angular and TypeScript on the frontend and Python on the backend: I build scalable, accessible enterprise web interfaces, implement state management with NgRx, integrate with REST APIs, and create reusable components. On the backend I design and build robust RESTful APIs and data pipelines using Python and PostgreSQL, and automate deployments with Docker and CI/CD pipelines. I have experience migrating UIs, consolidating module architecture, and applying lazy loading to improve performance. I follow Clean Code and SOLID principles, write unit and end-to-end tests (Karma/Jest/Cypress for frontend; pytest for backend), and automate pipelines with GitHub Actions and Jenkins for secure deployments. I work remotely with agile methodologies and collaborate closely with product and technical teams to turn requirements into reliable production software."
-	},
-	"about": {
-		"title1": "About",
-		"title2": "Me",
-		"text": "Passionate about software engineering and holding a degree in Mathematics from the University of Havana, I bring over 2 years of practical experience in enterprise frontend development. I worked at companies such as Zup Innovation and KBA Air Filters, where I migrated and optimized Angular architectures, implemented NgRx for complex flows, and standardized API contracts and test suites—in addition to automating CI/CD pipelines. As a freelancer, I delivered full-stack applications with Docker deployments and automated pipelines, and produced technical documentation and API guides. My skills include Angular, TypeScript, NgRx/Redux, REST integration, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testing (Karma/Jest/Cypress), and best practices (Clean Code, SOLID). I focus on quality, maintainability, performance, and aligning deliverables with business objectives."
-	},
-	"technologies": {
-		"title": "Technologies"
-	},
-	"experiences_title": "Experiences",
-	"experiences": [
-		{
-		"year": "August 2025",
-		"role": "Frontend Developer",
-		"company": "Zup Innovation",
-		"description": "I integrated frontends with authenticated REST APIs, designing contracts and test suites. I applied Clean Code and SOLID principles, conducted code reviews, and practiced pair programming to improve code quality.",
-		"technologies": ["Angular", "NgRx", "TypeScript"]
-		},
-		{
-		"year": "April 2024 · 2025",
-		"role": "Frontend Developer",
-		"company": "Korean Air Filters (KBA Air Filters)",
-		"description": "I developed interfaces in React + TypeScript for logistics management portals, creating reusable components and implementing basic accessibility. I collaborated with backend teams to standardize API contracts and ensure observability using structured logs.",
-		"technologies": ["React", "TypeScript"]
-		},
-		{
-		"year": "July 2023 · 2024",
-		"role": "Full Stack Developer",
-		"company": "Freelance — Havana",
-		"description": "I delivered complete web applications using TypeScript and REST integrations, performing deployments with Docker and configuring automated pipelines. I implemented unit (Karma/Jest) and end-to-end testing to reduce regressions. I created technical documentation, API guides, and deployment procedures for clients, ensuring the maintenance and continuity of the solutions.",
-		"technologies": ["TypeScript", "Docker", "Cypress"]
-		}
-	],
-	"project_name": "Projects",
-	"projects": [
-		{
+  "hero": {
+    "name": "Maria Victoria",
+    "fullStackDeveloper": "Fullstack Developer",
+    "content": "I am a Fullstack developer specializing in Angular and TypeScript on the frontend and Python on the backend: I build scalable, accessible enterprise web interfaces, implement state management with NgRx, integrate with REST APIs, and create reusable components. On the backend I design and build robust RESTful APIs and data pipelines using Python and PostgreSQL, and automate deployments with Docker and CI/CD pipelines. I have experience migrating UIs, consolidating module architecture, and applying lazy loading to improve performance. I follow Clean Code and SOLID principles, write unit and end-to-end tests (Karma/Jest/Cypress for frontend; pytest for backend), and automate pipelines with GitHub Actions and Jenkins for secure deployments. I work remotely with agile methodologies and collaborate closely with product and technical teams to turn requirements into reliable production software."
+  },
+  "about": {
+    "title1": "About",
+    "title2": "Me",
+    "text": "Passionate about software engineering and holding a degree in Mathematics from the University of Havana, I bring over 2 years of practical experience in enterprise frontend development. I worked at companies such as Zup Innovation and KBA Air Filters, where I migrated and optimized Angular architectures, implemented NgRx for complex flows, and standardized API contracts and test suites—in addition to automating CI/CD pipelines. As a freelancer, I delivered full-stack applications with Docker deployments and automated pipelines, and produced technical documentation and API guides. My skills include Angular, TypeScript, NgRx/Redux, REST integration, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testing (Karma/Jest/Cypress), and best practices (Clean Code, SOLID). I focus on quality, maintainability, performance, and aligning deliverables with business objectives."
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "experiences_title": "Experiences",
+  "experiences": [
+    {
+      "year": "August 2025",
+      "role": "Frontend Developer",
+      "company": "Fiscal Innovation",
+      "description": "I integrated frontends with authenticated REST APIs, designing contracts and test suites. I applied Clean Code and SOLID principles, conducted code reviews, and practiced pair programming to improve code quality.",
+      "technologies": ["Angular", "NgRx", "TypeScript"]
+    },
+    {
+      "year": "April 2024 · 2025",
+      "role": "Frontend Developer",
+      "company": "Korean Air Filters (KBA Air Filters)",
+      "description": "I developed interfaces in React + TypeScript for logistics management portals, creating reusable components and implementing basic accessibility. I collaborated with backend teams to standardize API contracts and ensure observability using structured logs.",
+      "technologies": ["React", "TypeScript"]
+    },
+    {
+      "year": "July 2023 · 2024",
+      "role": "Full Stack Developer",
+      "company": "Freelance — Havana",
+      "description": "I delivered complete web applications using TypeScript and REST integrations, performing deployments with Docker and configuring automated pipelines. I implemented unit (Karma/Jest) and end-to-end testing to reduce regressions. I created technical documentation, API guides, and deployment procedures for clients, ensuring the maintenance and continuity of the solutions.",
+      "technologies": ["TypeScript", "Docker", "Cypress"]
+    }
+  ],
+  "project_name": "Projects",
+  "projects": [
+    {
+      "title": "Hirekit",
+      "image": "../../assets/projects/hirekit.png",
+      "description": "I developed a professional optimization platform that allows users to generate CVs tailored to specific job offers, automatically enhance their LinkedIn profiles, and create professional posts based on their skills and experience. The project aims to help candidates stand out in recruitment processes and strengthen their personal brand through automated, AI-powered tools.",
+      "language": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Python",
+        "Django",
+        "Docker",
+        "Git"
+      ],
+      "url": "https://app.hirekit.shop/"
+    },
+    {
       "title": "Recipe App",
       "image": "../../assets/projects/recipe.svg",
       "description": "A modern web application for managing recipes, developed with React and TypeScript (Vite). It allows you to create, edit, view and search recipes, manage tags and ingredients, mark favorites and manage user profiles.",
       "language": ["React", "TypeScript", "Vite"],
-      "url": "https://github.com/vickie333/recipe"
+      "url": "https://recipe-umber-iota.vercel.app/"
     },
     {
       "title": "Text Similarity Finder",
@@ -66,8 +81,8 @@
       "language": ["Python"],
       "url": "https://github.com/vickie333/Six-Degrees-of-Separation"
     }
-	],
-	"contact": {
+  ],
+  "contact": {
     "title": "Contact",
     "address": "Street Leila Diniz, 389, Maria Antonieta, Pinhais, Curitiba, Brasil",
     "phoneNo": "(95) 98427-4616",

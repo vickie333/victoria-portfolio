@@ -17,7 +17,7 @@
     {
       "year": "Agosto 2025",
       "role": "Desarrolladora Frontend",
-      "company": "Zup Innovation",
+      "company": "Innovación Fiscal",
       "description": "Integré frontends con API REST autenticadas, diseñando contratos y suites de pruebas. Apliqué los principios de Clean Code y SOLID, realicé revisiones de código y practiqué la programación en parejas para mejorar la calidad del código.",
       "technologies": ["Angular", "NgRx", "TypeScript"]
     },
@@ -39,11 +39,26 @@
   "project_name": "Proyectos",
   "projects": [
     {
+      "title": "Hirekit",
+      "image": "../../assets/projects/hirekit.png",
+      "description": "Desarrollé una plataforma de optimización profesional que permite a los usuarios generar CVs adaptados a ofertas de empleo específicas, mejorar automáticamente sus perfiles de LinkedIn y crear publicaciones profesionales basadas en sus habilidades y experiencia. El proyecto tiene como objetivo ayudar a los candidatos a destacarse en los procesos de reclutamiento y fortalecer su marca personal mediante herramientas automatizadas impulsadas por IA.",
+      "language": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Python",
+        "Django",
+        "Docker",
+        "Git"
+      ],
+      "url": "https://app.hirekit.shop/"
+    },
+    {
       "title": "Recipe App",
       "image": "../../assets/projects/recipe.svg",
       "description": "Una moderna aplicación web para gestionar recetas, desarrollada con React y TypeScript (Vite). Permite crear, editar, ver y buscar recetas, gestionar etiquetas e ingredientes, marcar favoritos y gestionar perfiles de usuario.",
       "language": ["React", "TypeScript", "Vite"],
-      "url": "https://github.com/vickie333/recipe"
+      "url": "https://recipe-umber-iota.vercel.app/"
     },
     {
       "title": "Text Similarity Finder",
