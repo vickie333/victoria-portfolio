@@ -1,13 +1,13 @@
 {
   "hero": {
     "name": "Maria Victoria",
-    "fullStackDeveloper": "Desarrolladora Fullstack",
-    "content": "Soy desarrolladora Fullstack especializada en Angular y TypeScript en el frontend y Python en el backend: construyo interfaces web corporativas escalables y accesibles, implemento gestión de estado con NgRx, integración con APIs REST y componentes reutilizables. En el backend diseño y desarrollo APIs RESTful y pipelines de datos robustos con Python y PostgreSQL, y automatizo despliegues con Docker y flujos de CI/CD. Tengo experiencia en migración de UIs, consolidación de arquitectura de módulos y lazy loading para optimizar rendimiento. Aplico principios de Clean Code y SOLID, escribo pruebas unitarias y end-to-end (Karma/Jest/Cypress en frontend; pytest en backend) y automatizo pipelines con GitHub Actions y Jenkins para despliegues seguros. Trabajo en entornos remotos con metodologías ágiles y colaboro estrechamente con equipos de producto y técnicos para transformar requisitos en software confiable de producción."
+    "fullStackDeveloper": "Desarrolladora Mobile y Web",
+    "content": "Soy desarrolladora mobile y web con 3 años de experiencia práctica construyendo aplicaciones multiplataforma para iOS y Android con React Native, Expo y TypeScript, además de productos web con React y Next.js. Gestiono el estado con Redux y Context API, integro APIs RESTful y servicios de terceros como Mapbox y Expo Notifications, optimizo el rendimiento móvil y aplico buenas prácticas de seguridad móvil. Mi experiencia full-stack en Node.js, Python, Docker e infraestructura en la nube me da una visión clara de cómo funciona un producto móvil de extremo a extremo. Escribo código limpio, mantenible y reutilizable, participo en revisiones de código y decisiones de arquitectura, y trabajo de forma independiente en equipos ágiles remotos."
   },
   "about": {
     "title1": "Sobre",
     "title2": "Mí",
-    "text": "Apasionada por la ingeniería de software y licenciada en Matemáticas por la Universidad de La Habana, cuento con más de 2 años de experiencia práctica en desarrollo frontend empresarial. Trabajé en empresas como Zup Innovation y KBA Air Filters, donde migré y optimicé arquitecturas Angular, implementé NgRx para flujos complejos y estandaricé contratos de API y suites de pruebas, además de automatizar pipelines de CI/CD. Como freelancer, entregué aplicaciones full-stack con implementaciones Docker y pipelines automatizados, y produje documentación técnica y guías de API. Mis habilidades incluyen Angular, TypeScript, NgRx/Redux, integración REST, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testing (Karma/Jest/Cypress) y mejores prácticas (Clean Code, SOLID). Me enfoco en la calidad, mantenibilidad, rendimiento y alineación de entregables con los objetivos de negocio."
+    "text": "Apasionada por la ingeniería de software y licenciada en Matemáticas por la Universidad de La Habana, actualmente curso la Tecnóloga en Análisis y Desarrollo de Sistemas en UNIASSELVI. Cuento con 3 años de experiencia construyendo apps móviles con React Native, Expo y TypeScript, junto al producto web en React y Next.js. Antes trabajé en microservicios Python (Flask, Django) con Docker en GCP y AWS, administré máquinas virtuales Linux, mantuve gateways de datos de PostgreSQL y MySQL hacia Power BI y construí herramientas de web scraping con Python y Selenium. Mis habilidades incluyen React Native, Expo EAS Build, Redux, React Navigation, Mapbox, notificaciones push, Kotlin para módulos nativos de Android, Node.js, PostgreSQL, GitHub Actions y Docker. Hablo español (nativo), inglés (avanzado) y portugués (intermedio), y me enfoco en la calidad, mantenibilidad, rendimiento y alineación de entregables con los objetivos de negocio."
   },
   "technologies": {
     "title": "Tecnologías"
@@ -15,25 +15,18 @@
   "experiences_title": "Experiencias",
   "experiences": [
     {
-      "year": "Agosto 2025",
-      "role": "Desarrolladora Frontend",
-      "company": "Innovación Fiscal",
-      "description": "Integré frontends con API REST autenticadas, diseñando contratos y suites de pruebas. Apliqué los principios de Clean Code y SOLID, realicé revisiones de código y practiqué la programación en parejas para mejorar la calidad del código.",
-      "technologies": ["Angular", "NgRx", "TypeScript"]
+      "year": "2023 · Presente",
+      "role": "Ingeniera de Software · Mobile y Full Stack",
+      "company": "Orquestre Experience",
+      "description": "Desarrollo y mantengo apps móviles multiplataforma para iOS y Android con React Native, Expo y TypeScript, junto al producto web en React y Next.js. Gestiono el estado de la aplicación con Redux y Context API, optimizo el rendimiento móvil (renderizado, navegación y tiempos de carga) e integro APIs RESTful (Node.js, PostgreSQL) y servicios de terceros como Mapbox y Expo Notifications para mapas, geolocalización, funciones en tiempo real y notificaciones push. Aplico buenas prácticas de seguridad móvil en autenticación, comunicación con APIs y manejo de datos de usuario, depuro problemas en iOS y Android (escribiendo módulos nativos de Android en Kotlin cuando es necesario) y entrego nuevas funcionalidades a partir de prototipos de Figma junto a diseñadores y equipos multidisciplinarios. Mantengo la calidad alta con pruebas automatizadas, revisión de código y CI/CD (GitHub Actions).",
+      "technologies": ["React Native", "Expo", "TypeScript", "Redux", "Kotlin"]
     },
     {
-      "year": "Abril 2024 · 2025",
-      "role": "Desarrolladora Frontend",
-      "company": "Korean Air Filters (KBA Air Filters)",
-      "description": "Desarrollé interfaces en Angular + TypeScript para portales de gestión logística, creando componentes reutilizables e implementando accesibilidad básica. Colaboré con equipos de backend para estandarizar los contratos de API y garantizar la observabilidad mediante registros estructurados.",
-      "technologies": ["Angular", "TypeScript"]
-    },
-    {
-      "year": "Julio 2023 · 2024",
-      "role": "Desarrolladora Full Stack",
-      "company": "Freelance — Havana",
-      "description": "Entregué aplicaciones web completas utilizando TypeScript e integraciones REST, realizando implementaciones con Docker y configurando pipelines automatizados. Implementé pruebas unitarias (Karma/Jest) y de extremo a extremo para reducir las regresiones. Creé documentación técnica, guías de API y procedimientos de implementación para los clientes, garantizando el mantenimiento y la continuidad de las soluciones.",
-      "technologies": ["TypeScript", "Docker", "Cypress"]
+      "year": "2022 · 2023",
+      "role": "Desarrolladora de Software",
+      "company": "Business Innovation Tech (BTech)",
+      "description": "Contratada por BTech para brindar servicios de software y datos a un cliente SaaS de experiencia del cliente (CX), IA y automatización de procesos. Desarrollé y contenericé servicios Python (Flask, Django) con Docker en una arquitectura de microservicios desplegada en GCP y AWS, aprovisioné y administré máquinas virtuales Linux en Google Cloud, mantuve gateways de datos que conectan fuentes PostgreSQL y MySQL con Power BI optimizando consultas SQL, y construí herramientas de web scraping con Python y Selenium para automatizar la recolección de datos externos.",
+      "technologies": ["Python", "Docker", "GCP", "AWS", "PostgreSQL"]
     }
   ],
   "project_name": "Proyectos",

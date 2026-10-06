@@ -1,13 +1,13 @@
 {
   "hero": {
     "name": "Maria Victoria",
-    "fullStackDeveloper": "Fullstack Developer",
-    "content": "I am a Fullstack developer specializing in Angular and TypeScript on the frontend and Python on the backend: I build scalable, accessible enterprise web interfaces, implement state management with NgRx, integrate with REST APIs, and create reusable components. On the backend I design and build robust RESTful APIs and data pipelines using Python and PostgreSQL, and automate deployments with Docker and CI/CD pipelines. I have experience migrating UIs, consolidating module architecture, and applying lazy loading to improve performance. I follow Clean Code and SOLID principles, write unit and end-to-end tests (Karma/Jest/Cypress for frontend; pytest for backend), and automate pipelines with GitHub Actions and Jenkins for secure deployments. I work remotely with agile methodologies and collaborate closely with product and technical teams to turn requirements into reliable production software."
+    "fullStackDeveloper": "Mobile & Web Developer",
+    "content": "I am a mobile and web developer with 3 years of hands-on experience building cross-platform iOS and Android apps with React Native, Expo and TypeScript, as well as web products with React and Next.js. I manage state with Redux and Context API, integrate RESTful APIs and third-party services such as Mapbox and Expo Notifications, optimise mobile performance and apply mobile security best practices. My full-stack background in Node.js, Python, Docker and cloud infrastructure gives me a clear view of how a mobile product works end to end. I write clean, maintainable and reusable code, take part in code reviews and architectural decisions, and work independently in remote Agile teams."
   },
   "about": {
     "title1": "About",
     "title2": "Me",
-    "text": "Passionate about software engineering and holding a degree in Mathematics from the University of Havana, I bring over 2 years of practical experience in enterprise frontend development. I worked at companies such as Zup Innovation and KBA Air Filters, where I migrated and optimized Angular architectures, implemented NgRx for complex flows, and standardized API contracts and test suites—in addition to automating CI/CD pipelines. As a freelancer, I delivered full-stack applications with Docker deployments and automated pipelines, and produced technical documentation and API guides. My skills include Angular, TypeScript, NgRx/Redux, REST integration, SQL/PostgreSQL, GitHub Actions, Jenkins, Docker, testing (Karma/Jest/Cypress), and best practices (Clean Code, SOLID). I focus on quality, maintainability, performance, and aligning deliverables with business objectives."
+    "text": "Passionate about software engineering and holding a degree in Mathematics from the University of Havana, I am currently pursuing a Technologist Degree in Systems Analysis and Development at UNIASSELVI. I have 3 years of experience building mobile apps with React Native, Expo and TypeScript, alongside the web product in React and Next.js. Earlier in my career I worked on Python microservices (Flask, Django) with Docker on GCP and AWS, managed Linux virtual machines, maintained data gateways from PostgreSQL and MySQL to Power BI, and built web scraping tools with Python and Selenium. My skills include React Native, Expo EAS Build, Redux, React Navigation, Mapbox, push notifications, Kotlin for native Android modules, Node.js, PostgreSQL, GitHub Actions and Docker. I speak Spanish (native), English (advanced) and Portuguese (intermediate), and I focus on quality, maintainability, performance and aligning deliverables with business goals."
   },
   "technologies": {
     "title": "Technologies"
@@ -15,25 +15,18 @@
   "experiences_title": "Experiences",
   "experiences": [
     {
-      "year": "August 2025",
-      "role": "Frontend Developer",
-      "company": "Fiscal Innovation",
-      "description": "I integrated frontends with authenticated REST APIs, designing contracts and test suites. I applied Clean Code and SOLID principles, conducted code reviews, and practiced pair programming to improve code quality.",
-      "technologies": ["Angular", "NgRx", "TypeScript"]
+      "year": "2023 · Present",
+      "role": "Software Engineer · Mobile & Full Stack",
+      "company": "Orquestre Experience",
+      "description": "I develop and maintain cross-platform mobile apps for iOS and Android with React Native, Expo and TypeScript, alongside the web product in React and Next.js. I manage application state with Redux and Context API, optimise mobile performance (rendering, navigation and load times) and integrate RESTful APIs (Node.js, PostgreSQL) and third-party services such as Mapbox and Expo Notifications for maps, geolocation, real-time features and push notifications. I apply mobile security best practices in authentication, API communication and handling of user data, debug issues across iOS and Android (writing native Android modules in Kotlin where needed), and ship new features from Figma prototypes together with designers and cross-functional teams. I keep quality high with automated tests, code review and CI/CD (GitHub Actions).",
+      "technologies": ["React Native", "Expo", "TypeScript", "Redux", "Kotlin"]
     },
     {
-      "year": "April 2024 · 2025",
-      "role": "Frontend Developer",
-      "company": "Korean Air Filters (KBA Air Filters)",
-      "description": "I developed interfaces in React + TypeScript for logistics management portals, creating reusable components and implementing basic accessibility. I collaborated with backend teams to standardize API contracts and ensure observability using structured logs.",
-      "technologies": ["React", "TypeScript"]
-    },
-    {
-      "year": "July 2023 · 2024",
-      "role": "Full Stack Developer",
-      "company": "Freelance — Havana",
-      "description": "I delivered complete web applications using TypeScript and REST integrations, performing deployments with Docker and configuring automated pipelines. I implemented unit (Karma/Jest) and end-to-end testing to reduce regressions. I created technical documentation, API guides, and deployment procedures for clients, ensuring the maintenance and continuity of the solutions.",
-      "technologies": ["TypeScript", "Docker", "Cypress"]
+      "year": "2022 · 2023",
+      "role": "Software Developer",
+      "company": "Business Innovation Tech (BTech)",
+      "description": "Contracted by BTech to provide software and data services to a SaaS client in customer experience (CX), AI and process automation. I developed and containerised Python services (Flask, Django) with Docker in a microservice architecture deployed on GCP and AWS, provisioned and managed Linux virtual machines on Google Cloud, maintained data gateways connecting PostgreSQL and MySQL sources to Power BI while optimising SQL queries, and built web scraping tools with Python and Selenium to automate external data collection.",
+      "technologies": ["Python", "Docker", "GCP", "AWS", "PostgreSQL"]
     }
   ],
   "project_name": "Projects",
